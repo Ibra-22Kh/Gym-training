@@ -1,7 +1,6 @@
 import React from "react";
-import { Box, Stack, Typography, Button } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 import BannerImage from '../assets/images/banner.png'
-import { fontSize } from "@mui/system";
 const HeroBanner = () => {
   return (
   <Box sx={{
@@ -22,7 +21,7 @@ const HeroBanner = () => {
     </Typography>
 
     <Typography fontSize="22px" lineHeight="35px" mb={4}>
-      Checkout the most effective exercisese
+      Checkout the most effective exercises
     </Typography>
 
     <Button variant="contained"
